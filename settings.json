@@ -1,0 +1,101 @@
+{
+    "editor.fontFamily": "'Hack Nerd Font Mono', monospace",
+    "security.workspace.trust.untrustedFiles": "open", "glassit.alpha": 255,
+    "wallpaper-setting.favoriteWallpaperImageSet": {
+    
+    },
+    "wallpaper-setting.opacity": 1,
+    "workbench.editorAssociations": {
+        "*.dll": "default",
+        "*.tex": "default"
+    },
+    "editor.minimap.enabled": false,
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "tabnine.experimentalAutoImports": true,
+    "files.maxMemoryForLargeFilesMB": 1000000,
+    "explorer.confirmDelete": false,
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.fontSize": 15,
+    "files.autoSave": "afterDelay",
+    "settingsSync.keybindingsPerPlatform": false,
+    "emmet.variables": {
+        "lang": "ja"
+    },
+    "html-css-class-completion.enableEmmetSupport": true,
+    "emmet.preferences": {
+    
+    },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "git.openRepositoryInParentFolders": "always",
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "explorer.confirmDragAndDrop": false,
+    "workbench.startupEditor": "none",
+    "extensions.ignoreRecommendations": true,
+    "markdown-preview-enhanced.previewTheme": "vue.css",
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": false,
+        "markdown": true,
+        "scminput": false
+    },
+    "window.menuBarVisibility": "compact",
+    "workbench.layoutControl.enabled": false,
+    "markdown-preview-enhanced.revealjsTheme": "beige.css",
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "window.titleBarStyle": "custom",
+    "vscode-neovim.neovimExecutablePaths.linux": "/opt/homebrew/bin/nvim",
+    "window.commandCenter": false,
+    "editor.inlayHints.fontFamily": "'Hack Nerd Font Monor', monospace",
+    "terminal.integrated.fontFamily": "'Hack Nerd Font Monor', monospace",
+    "notebook.output.fontFamily": "'Hack Nerd Font Monor', monospace",
+    "gitlens.currentLine.fontFamily": "'Hack Nerd Font Monor', monospace",
+    "gitlens.currentLine.fontStyle": "'Hack Nerd Font Monor', monospace",
+    "gitlens.blame.fontFamily": "'Hack Nerd Font Monor', monospace",
+
+    "editor.pressAndHold": false,
+    "vscode-neovim.neovimExecutablePaths.darwin": "/opt/homebrew/bin/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "/Users/arcsec/.config/nvim/init.lua",
+    "vscode-neovim.neovimExecutablePaths.win32": "/opt/homebrew/bin/nvim",
+
+
+    "latex-workshop.latex.recipes": [ {
+      "name": "lualatex",
+      "tools": ["lualatex"]
+    }
+    ],
+    "latex-workshop.latex.tools": [
+    {
+      "name": "lualatex",
+      "command": "lualatex",
+      "args": [
+        "--cmdx",
+        "-file-line-error",
+        "-synctex=1",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "-output-directory=%OUTDIR%",
+        "%DOC%"
+      ],
+      "env": {}
+    }
+    ],
+    "latex-workshop.latex.outDir": "output",
+    "latex-workshop.latex.autoBuild.run": "onSave",
+}

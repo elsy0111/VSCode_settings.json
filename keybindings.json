@@ -1,0 +1,71 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+k ctrl+c",
+        "command": "-editor.action.addCommentLine",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus && editorLangId =~ /^latex$|^latex-expl3$|^rsweave$|^jlweave$|^pweave$/"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-notebook.centerActiveCell",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+oem_1 ctrl+l",
+        "command": "-testing.debugLastRun"
+    },
+    // {
+    //     "key": "ctrl+l",
+    //     "command": "-vscode-neovim.send",
+    //     "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+    // },
+    // {
+    //     "key": "ctrl+l",
+    //     "command": "-vscode-neovim.send-cmdline",
+    //     "when": "neovim.mode == 'cmdline_insert' || neovim.mode == 'cmdline_normal' || neovim.mode == 'cmdline_replace'"
+    // },
+    {
+        "key": "ctrl+r 0",
+        "command": "-vscode-neovim.send-cmdline",
+        "when": "neovim.mode == 'cmdline_insert' || neovim.mode == 'cmdline_normal' || neovim.mode == 'cmdline_replace'"
+    },
+    {
+        "key": "ctrl+r 1",
+        "command": "-vscode-neovim.send-cmdline",
+        "when": "neovim.mode == 'cmdline_insert' || neovim.mode == 'cmdline_normal' || neovim.mode == 'cmdline_replace'"
+    },
+    {
+        "key": "alt+z",
+        "command": "-workbench.action.terminal.sizeToContentWidth",
+        "when": "terminalFocus && terminalHasBeenCreated && terminalIsOpen || terminalFocus && terminalIsOpen && terminalProcessSupported"
+    },
+    {
+        "key": "alt+z",
+        "command": "-editor.action.toggleWordWrap"
+    },
+    {
+        "key": "ctrl+r 2",
+        "command": "-vscode-neovim.send-cmdline",
+        "when": "neovim.mode == 'cmdline_insert' || neovim.mode == 'cmdline_normal' || neovim.mode == 'cmdline_replace'"
+    },
+    {
+        "key": "alt+b",
+        "command": "vscode-neovim.send-cmdline",
+        "when": "neovim.mode == 'cmdline_insert' || neovim.mode == 'cmdline_normal'"
+    },
+    {
+        "key": "shift+z",
+        "command": "vscode-neovim.send-cmdline",
+        "when": "neovim.mode == 'cmdline_insert' || neovim.mode == 'cmdline_normal'"
+    }
+]
